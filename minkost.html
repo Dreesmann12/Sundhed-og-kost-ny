@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/minkost.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="header">
+  <header>
+    <h1 class="title">Ingen Kost er Perfekt</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="teknologi.html">Teknologi i kosten</a></li>
+        <li><a href="minkost.html">Min kost</a></li>
+        <li><a href="perfektkost.html">Ingen kost er perfekt</a></li>
+        </ul>
+    </nav>
+  </header>
+</div>
+<div id="start">
+  <section class="sektion">
+    <h1 class="header">
+      Min kost
+    </h1>
+    <div>
+      Min rejse gennem mad har været lang. Jeg har gået fra at spise som jeg har lyst til at spise som en atlet, altså jeg har prioriteret masser kulhydrater. Jeg har også spist for at stige i vægt, og for at komme ned i vægt. Bodybuilders vil kalde denne process for en "bulk" og en "shred" periode
+    </div>
+    <div>
+      Det er nemlig sådan at forskellige folk har brug for forskelligt mad. En fuldvoksen mand har, gennemsnitligt, brug for ca 2600 kalorier dagligt, men hvad med et barn? 
+    </div>
+    <div>
+      Det samme gælder forskellige typer mennesker, nogen skal absolout holde sig fra sukker fordi det spiker insulin i deres blod. 
+    </div>
+    <div>
+      Andre prioritere en kulhydrat rig kost, fordi de skal brænde masser energi af. Her mener jeg specifikt cykelrytter. 
+    </div>
+    <div>
+      På den anden side kan en bodybuilder, eller en der træner kampsport have en mere balanceret kost. En der er både rig på kulhydrat og proteiner. Nogen kampsportudøver skal stige i vægt til deres kamp, og andre udøver skal ned i vægt
+    </div>
+  </section>
+</div>
+
+<section class="layout">
+  <div class="calculatorBox">
+    <h2>Beregn din antal kalorier (Mænd)</h2>
+    <div>Se hvor mange kalorier du bør indtage dagligt.</div>
+    <div class="labeller">
+      <div class="radioEt">
+        <label for="ikke-aktiv" class="aktiv">ikke aktiv <span>(0-1 gang om ugen)</span></label>
+        <input type="radio" name="aktivitet" id="ikkeAktiv">
+      </div>
+      <div class="radioTo">
+        <label for="moderat-aktiv" class="aktiv">moderat aktiv <span>(2-4 gange om ugen)</span></label>
+        <input type="radio" name="aktivitet" id="moderatAktiv">
+      </div>
+      <div class="radioTre">
+        <label for="meget-aktiv" class="aktiv">meget aktiv <span>(5-7 gange om ugen)</span></label>
+        <input type="radio" name="aktivitet" id="megetAktiv">
+      </div>
+    </div>
+    <input type="number" id="vaegtInput" placeholder="Skriv vægt i KG">
+    <button id="beregner">Beregn</button>
+    <div id="resultat" class="resultat"></div>
+  </div>
+</section>
+
+  <script src="javascript/minkost.js"></script>
+</body>
+</html>

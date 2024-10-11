@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <link rel="stylesheet" href="css/perfektkost.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingen kost er perfekt</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Kostens psykologi</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="teknologi.html">Teknologi i kosten</a></li>
+                <li><a href="minkost.html">Min kost</a></li>
+                <li><a href="perfektkost.html">Ingen kost er perfekt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content-section">
+        <article>
+            <h2>Den rolle kosten spiller</h2>
+            <p class="p1">
+                Et sundt kostmønster er afgørende for både fysisk og mental sundhed. Det handler ikke kun om viden, men også om motivation, vaner og selvregulering. Psykologisk set kæmper mange med at omsætte gode intentioner til handling på grund af indgroede vaner og miljømæssige fristelser. Fordelene ved at spise sundt inkluderer lavere risiko for kroniske sygdomme, bedre energiniveau og øget velvære.
+            </p>
+
+            <p class="p2">
+                Selvom mange ved, hvad de burde spise, viser forskning, at information alene sjældent fører til varige ændringer. Interventioner, der fokuserer på at ændre vaner og skabe en mere støttende fysisk og social miljø, har vist sig at være mere effektive. Selvregulering spiller en vigtig rolle, og små ændringer i daglige rutiner kan have stor indflydelse på sundheden. 
+            </p>
+
+            <p class="p3">
+                Et citat, der opsummerer denne psykologiske udfordring, kunne være: <button onclick="visCitat()" class="visCitat">Vis citat</button>
+            </p>
+            
+            <!-- Knappen til at vise et tilfældigt citat -->
+
+            <!-- Et afsnit til at vise citatet -->
+            <p id="citat" class="p4"></p>
+
+            <div class="kilde">
+                <h3>Kilde: 
+                de Ridder, D. et al. (2017) Healthy diet: Health impact, prevalence, correlates, and interventions. Psychology & health. [Online] 32 (8), 907–941.
+                </h3>
+                <a href="https://soeg.kb.dk/discovery/fulldisplay?docid=cdi_proquest_journals_1909668843&context=PC&vid=45KBDK_KGL:KGL&lang=da&search_scope=MyInst_and_CI&adaptor=Primo%20Central&tab=Everything&query=any,contains,Healthy%20diet:%20Health%20impact,%20prevalence,%20correlates&offset=0">Link til kilde</a>
+            </div>
+        </article>
+    </section>
+
+
+    <script src="javascript/perfektkost.js"></script>
+
+    <script>
+        // Array med citater
+        const citater = [
+            "Vores intentioner om at spise sundt svigter ofte, når automatiske vaner og fristelser tager over.",
+            "Sunde spisevaner er ikke kun et valg, men en praksis, der kræver vedholdenhed og planlægning.",
+            "Den største barriere for en sund kost er sjældent viden, men snarere vanens magt og miljøets fristelser.",
+            "At ændre sin kost er ikke en kortsigtet udfordring – det er en langsigtet investering i ens velvære.",
+            "Selv de bedste intentioner kan falde til jorden, hvis ikke de bakkes op af sunde rutiner og omgivelser.",
+            "Vejen til et sundt liv begynder ikke i supermarkedet, men i de daglige valg, vi gentager uden at tænke."
+        ];
+
+        // Funktion til at vise et tilfældigt citat
+        function visCitat() {
+            // Vælg et tilfældigt citat
+            const randomIndex = Math.floor(Math.random() * citater.length);
+            const citat = citater[randomIndex];
+
+            // Vis citatet i <p> elementet med id="citat"
+            document.getElementById('citat').innerText = citat;
+        }
+    </script>
+
+</body>
+</html>

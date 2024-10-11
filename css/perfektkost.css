@@ -1,0 +1,84 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f6f6;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.title{
+  color: white;
+}
+.content-section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #4CAF50;
+}
+
+h3 {
+  margin-top: 25px;
+}
+
+.p1{
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+.p2{
+  margin-bottom: 45px;
+}
+
+.p3{
+  margin-bottom: 25px;
+}
+
+.p4{
+  font-style: italic;
+  font-weight: 420;
+}
+
+.visCitat{
+  background-color:#4CAF50;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 14px;
+  margin-left: 6px;
+}
+
+.visCitat:hover{
+  padding: 6px 15px;
+  border: none;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.kilde{
+  margin-top: 100px;
+  font-weight: bold;
+}

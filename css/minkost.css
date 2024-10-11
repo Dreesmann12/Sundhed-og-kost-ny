@@ -1,0 +1,120 @@
+/* Ensure the body takes full height */
+body {
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+div{
+  margin-bottom: 18px;
+}
+
+/* Full width header */
+header {
+  width: 100%; /* Ensure header takes full width */
+  background-color: #4CAF50;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* Navigation styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Content inside #start */
+#start {
+  width: 80%; /* Set desired width */
+  max-width: 1000px; /* Max width */
+  margin: 20px auto; /* Center the container */
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+}
+
+/* Content styling */
+.sektion {
+  text-align: left; /* Left align text */
+}
+
+/* Calculator box styling */
+.radioEt{
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.radioTo{
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.radioTre{
+  font-weight: 700;
+}
+/* Input styling */
+#vaegtInput {
+  padding: 10px;
+  margin-bottom: 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%; /* Width of input */
+}
+
+.layout{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.calculatorBox {
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 20px;
+  width: 80%; /* Set desired width for calculator */
+  max-width: 1000px; /* Max width */
+  margin-top: 50px;
+}
+
+#beregner{
+  padding: 10px 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin-left: 8px;
+}
+
+.resultat{
+  margin-top: 24px;
+  margin-bottom: 1px;
+}
+
+.labeller{
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.aktiv{
+  margin-right: 0px;
+  margin-left: 0px;
+  display: inline;
+}
+
+span{
+  font-weight: 100;
+}
